@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Console.WriteLine("Hello Sandbox World!");
+        // Console.WriteLine("Hello CSE 210");
+        // Console.WriteLine("Please Enter Your Name: ");
+        // string Name = Console.ReadLine();
+        // Console.WriteLine($"Your Name Is {Name}");
+        
+        // int x = 10;
+        // int y = x++;
+        // int z = y;
+        // Console.WriteLine($"{x} {y} {z}");
+        
+        // For Loop
+        for(float i = 3000.234F; i > 200; i -= 100.45F)
+        {
+            Console.WriteLine($"{i}: Bob");
+        }
+    }
+}
