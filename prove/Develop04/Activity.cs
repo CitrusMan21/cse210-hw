@@ -1,7 +1,3 @@
-using System;
-using System.Threading;
-
-
 public class Activity
 {
     protected string Name;
@@ -41,7 +37,7 @@ public class Activity
         Console.WriteLine();
     }
 
-    protected void DisplaySpinner(int seconds)
+    public void DisplaySpinner(int seconds)
     {
         DateTime now = DateTime.Now;
         DateTime future = now.AddSeconds(seconds);
